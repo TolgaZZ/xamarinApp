@@ -20,19 +20,19 @@
                 <Label Text="Achternaam" FontSize="Medium" />
                 <Entry  Text="{Binding Item.Achternaam}" FontSize="Small" />
                 <Label Text="Adress" FontSize="Medium" />
-                <Entry FontSize="Small" />
+                <Entry Text="{Binding Item.Adress}" FontSize="Small" />
                 <Label Text="Postcode" FontSize="Medium" />
-                <Entry FontSize="Small" />
+                <Entry Text="{Binding Item.Postcode}" FontSize="Small" />
                 <Label Text="Plaats" FontSize="Medium" />
-                <Entry FontSize="Small" />
+                <Entry Text="{Binding Item.Plaats}" FontSize="Small" />
                 <Label Text="Land" FontSize="Medium" />
-                <Entry FontSize="Small" />
+                <Entry Text="{Binding Item.Land}" FontSize="Small" />
                 <Label Text="Tel of Email" FontSize="Medium" />
-                <Entry FontSize="Small" />
+                <Entry Text="{Binding Item.TelofEmail}" FontSize="Small" />
                 <Label Text="Kenteken" FontSize="Medium" />
-                <Entry FontSize="Small" />
-                <Label Text="Description" FontSize="Medium" />
-                <Editor Text="{Binding Item.Description}" d:Text="Item description" FontSize="Small" Margin="0" />
+                <Entry Text="{Binding Item.Kenteken}" FontSize="Small" />
+                <Label Text="Beschrijving Insident" FontSize="Medium" />
+                <Editor Text="{Binding Item.Beschrijving}" d:Text="Item description" FontSize="Small" Margin="0" />
                 <Button Text="Location" Clicked="Button_Clicked" />
 
                 <Button Text="Camera" Clicked="Button_Clicked_1" />

@@ -12,6 +12,10 @@ namespace tolgaExamen.Models
         public string Voornaam { get; set; }
         public string Achternaam { get; set; }
         public string Adress { get; set; }
+        public string Postcode { get; set; }
+        public string Plaats { get; set; }
+        public string Land { get; set; }
+        public string TelofEmail { get; set; }
         public string Description { get; set; }
         public Xamarin.Essentials.Location Location { get; set; }
         public MediaFile Image { get; set; }

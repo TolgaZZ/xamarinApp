@@ -7,20 +7,20 @@
              xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
              x:Class="tolgaExamen.Views.ItemDetailPage"
              Title="{Binding Title}">
-
-    <StackLayout Spacing="20" Padding="15">
-        <Label Text="Text:" FontSize="Medium" />
-        <Label Text="{Binding Item.Text}" d:Text="Item name" FontSize="Small"/>
-        <Label Text="Text:" FontSize="Medium" />
-        <Label Text="{Binding Item.Text}" d:Text="Item name" FontSize="Small"/>
-        <Label Text="Text:" FontSize="Medium" />
-        <Label Text="{Binding Item.Text}" d:Text="Item name" FontSize="Small"/>
-        <Label Text="Text:" FontSize="Medium" />
-        <Label Text="{Binding Item.Text}" d:Text="Item name" FontSize="Small"/>
+    <ScrollView>
+        <StackLayout Spacing="20" Padding="15">
+        <Label Text="Voornaam:" FontSize="Medium" />
+        <Label Text="{Binding Item.Voornaam}" d:Text="Voornaam" FontSize="Small"/>
+        <Label Text="Achternaam:" FontSize="Medium" />
+        <Label Text="{Binding Item.Achternaam}" d:Text="Achternaam" FontSize="Small"/>
+        <Label Text="Adress:" FontSize="Medium" />
+        <Label Text="{Binding Item.Adress}" d:Text="Adress" FontSize="Small"/>
+        <Label Text="Postcode:" FontSize="Medium" />
+        <Label Text="{Binding Item.Postcode}" d:Text="Postcode" FontSize="Small"/>
         <Label Text="Description:" FontSize="Medium" />
         <Label Text="{Binding Item.Description}" d:Text="Item description" FontSize="Small"/>
         <Image x:Name="image" BackgroundColor="Silver" HeightRequest="200" HorizontalOptions="FillAndExpand" Aspect="AspectFit" />
         <ContentView x:Name="mapWrapper" HeightRequest="200" BackgroundColor="Silver" />
     </StackLayout>
-    
+    </ScrollView>
 </ContentPage>
