@@ -1,0 +1,27 @@
+alle forms fixe
+	Item.cs aanvullen
+	Bindings koppelen
+
+ItemDetailsPage
+	Alle gegevens weergeven
+	api key toevoegen
+
+Flashlight
+	Permissions geven
+		
+Testen
+	Map
+	Camera
+
+Tips Tab maken
+
+
+
+
+
+https://docs.microsoft.com/en-us/xamarin/essentials/
+https://github.com/jamesmontemagno/MediaPlugin/issues/849
+https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/button
+https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/map/setup
+https://docs.microsoft.com/en-us/xamarin/android/platform/maps-and-location/maps/obtaining-a-google-maps-api-key?tabs=windows
+https://stackoverflow.com/questions/17576464/what-permission-i-need-in-order-to-use-camera-flash-in-camera-preview
