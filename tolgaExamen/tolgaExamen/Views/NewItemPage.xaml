@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="tolgaExamen.Views.NewItemPage"
+             Title="New Item">
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Cancel" Clicked="Cancel_Clicked" />
+        <ToolbarItem Text="Save" Clicked="Save_Clicked" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+
+        <ScrollView>
+            <StackLayout Spacing="20" Padding="15">
+                <Label Text="Voornaam" FontSize="Medium" />
+                <Entry Text="{Binding Item.Voornaam}" d:Text="Voornaam" FontSize="Small" />
+                <Label Text="Achternaam" FontSize="Medium" />
+                <Entry  Text="{Binding Item.Achternaam}" FontSize="Small" />
+                <Label Text="Adress" FontSize="Medium" />
+                <Entry FontSize="Small" />
+                <Label Text="Postcode" FontSize="Medium" />
+                <Entry FontSize="Small" />
+                <Label Text="Plaats" FontSize="Medium" />
+                <Entry FontSize="Small" />
+                <Label Text="Land" FontSize="Medium" />
+                <Entry FontSize="Small" />
+                <Label Text="Tel of Email" FontSize="Medium" />
+                <Entry FontSize="Small" />
+                <Label Text="Kenteken" FontSize="Medium" />
+                <Entry FontSize="Small" />
+                <Label Text="Description" FontSize="Medium" />
+                <Editor Text="{Binding Item.Description}" d:Text="Item description" FontSize="Small" Margin="0" />
+                <Button Text="Location" Clicked="Button_Clicked" />
+
+                <Button Text="Camera" Clicked="Button_Clicked_1" />
+                <Image x:Name="image" BackgroundColor="Silver" HeightRequest="200" HorizontalOptions="FillAndExpand" Aspect="AspectFit" />
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+   
+</ContentPage>
